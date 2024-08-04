@@ -1,0 +1,7 @@
+﻿p_s_fit_dukeA,p_s_fit_dukeB,p_s_fit_dukeCD,p_s_fit_highrisk,p_s_fit_lowrisk1,p_s_fit_lowrisk2,p_s_tcs_DukeABCD,p_s_tcs_highpolyp,p_s_tcs_low2,p_speci_fit,p_speci_tcs,p_tcs_lowr1
+sensitivity for Duke's A CRC,sensitivity for Duke'sB CRC,sensitivity for Duke's C and D CRC,sensitivity for high-risk polyp,sensitivity for 1-4mm low-risk polyp,sensitivity for 5~9mm low-risk polyp,Sensitivity for CRC(DukesA-D),Sensitivity for 5-9mm low-risk polyp,Sensitivity for 5-9mm low-risk polyp,specificity for colorectal polyp and CRC in fit,specificity for colorectal polyp and CRC,Sensitivity for 1-4mm low-risk polyp
+0.916,0.916,0.916,0.438,0.122,0.152,0.999,0.865,0.865,0.946,1,0.741
+0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05
+0.05,0.05,0.05,0.05,0.05,0.05,0,0.05,0.05,0.05,0,0.05
+p_s_fit_dukeA,p_s_fit_dukeB,p_s_fit_dukeCD,p_s_fit_highrisk,p_s_fit_lowrisk1,p_s_fit_lowrisk2,p_s_tcs_DukeABCD,p_s_tcs_highpolyp,p_s_tcs_low2,p_speci_fit,p_speci_tcs,p_tcs_lowr1
+0,0,0,0,0,0,0,0,0,0,0,0

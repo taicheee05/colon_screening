@@ -1,0 +1,71 @@
+﻿Name,Description,Comment,Show In Tree,Root Definition,Low,High,Original Name,Changed
+c_fit,FIT COST(\/Y),,yes,1557,0.2,0.2,c_fit,0
+c_ma_f1_dukesA,annual cost management Duke's A patient(1year)(\/Y),,yes,1786482,0.2,0.2,c_ma_f1_dukesA,0
+c_ma_f1_dukesB,annual cost management Duke's B patient(1year)(\/Y),,yes,2056922,0.2,0.2,c_ma_f1_dukesB,0
+c_ma_f1_dukesC,annual cost management Duke's A patient(1year)(\/Y),,yes,2637803,0.2,0.2,c_ma_f1_dukesC,0
+c_ma_f1_dukesD,annual cost management Duke's D patient(1year)(\/Y),,yes,3179764,0.2,0.2,c_ma_f1_dukesD,0
+c_ma_f2_dukesA,annual cost management Duke's A patient(after 2year)(\/Y),,yes,34610,0.2,0.2,c_ma_f2_dukesA,0
+c_ma_f2_dukesB,annual cost management Duke's B patient(after 2year)(\/Y),,yes,34610,0.2,0.2,c_ma_f2_dukesB,0
+c_ma_f2_dukesC,annual cost management Duke's C patient(after 2year)(\/Y),,yes,43758,0.2,0.2,c_ma_f2_dukesC,0
+c_ma_f2_dukesD,annual cost management Duke's D patient(after 2year)(\/Y),,yes,2476258,0.2,0.2,c_ma_f2_dukesD,0
+c_rem_hr_ply,cost endoscopic resection of high-risk polyp(\/Y),,yes,452445,0.2,0.2,c_rem_hr_ply,0
+c_rem_lr_poly,cost endoscopic resection of low-risk polyp,,yes,48650,0.2,0.2,c_rem_lr_poly,0
+c_tcs,tcs cost(\/Y),,yes,30943,0.2,0.2,c_tcs,0
+cycle_length,cycle length,,yes,1,0,1,cycle_length,0
+dr,discount rate,,yes,0.02,0,0.02,dr,0
+p_bleeding_with_resection,probability of bleeding after TCS with endoscopic resection,,yes,0.005,0.05,0.05,p_bleeding_with_resection,0
+p_da_sy,probability of symptomatice presentation of CRC,,yes,0.065,0.05,0.05,p_da_sy,0
+p_da_to_db,From Duke's A to B,,yes,0.583,0.05,0.05,p_da_to_db,0
+p_da_to_death,from dukesA to death,,yes,0.016,0.05,0.05,p_da_to_death,0
+p_db_sy,probability of symptomatice presentation of CRC:DukeB,,yes,0.26,0.05,0.05,p_db_sy,0
+p_db_to_dc,From DukesB to DukesC,,yes,0.656,0.05,0.05,p_db_to_dc,0
+p_db_to_death,From dukesB to death,,yes,0.031,0.05,0.05,p_db_to_death,0
+p_dc_sy,probability of symptomatice presentation of CRC:DukeC,,yes,0.46,0.05,0.05,p_dc_sy,0
+p_dc_to_dd,from DukeC to DukeD,,yes,0.865,0.05,0.05,p_dc_to_dd,0
+p_dc_to_death,from DukesC to Death,,yes,0.073,0.05,0.05,p_dc_to_death,0
+p_dd_sy,probability of symptomatice presentation of CRC:DukeD,,yes,0.92,0.05,0.05,p_dd_sy,0
+p_dd_to_death,from dukesD to death,,yes,0.298,0.05,0.05,p_dd_to_death,0
+p_death_after_perforation,probability of death following perforation,,yes,0.067,0.05,0.05,p_death_after_perforation,0
+p_hr_to_da,From high-risk polyp to Dukes'A CRC,,yes,0.034,0.05,0.05,p_hr_to_da,0
+p_lr1_to_lr2,,,yes,Table1[_stage;2],0,0.014,p_lr1_to_lr2,0
+p_lr2_to_hr,,,yes,Table1[_stage;3],0,0.014,p_lr2_to_hr,0
+p_normal_to_lr1,,,yes,Table1[_stage;1],0,0.034,p_normal_to_lr1,0
+p_perforation_tcs,probability for perforation after TCS without endoscopic resection,,yes,0.0001,0.05,0.05,p_perforation_tcs,0
+p_perforation_w_resection,probability of perforation after TCS with endoscopic polyp resection,,yes,0.0006,0.05,0.05,p_perforation_w_resection,0
+p_prn_to_hr,post resection to high risk,,yes,0.007,0,0.007,p_prn_to_hr,0
+p_prn_to_lr1,from post resection to lowrisk,,yes,0.1,0,0.1,p_prn_to_lr1,0
+p_prn_to_lr2,from post resection to lower risk2,,yes,0.053,0,0.053,p_prn_to_lr2,0
+p_r_dukeA,probability of recurrence after treatment of colorectal cancer,,yes,0.008,0.05,0.05,p_r_dukeA,0
+p_r_dukeB,probability of recurrence after treatment of colorectal cancer,,yes,0.028,0.05,0.05,p_r_dukeB,0
+p_r_dukeC,probability of recurrence after treatment of colorectal cancer,,yes,0.071,0.05,0.05,p_r_dukeC,0
+p_r_dukeD,probability of recurrence after treatment of colorectal cancer,assumption,yes,0.1,0.05,0.05,p_r_dukeD,0
+p_res_fit,response rate to health examination,,yes,0.459,0.05,0.05,p_res_fit,0
+p_res_tcs,response rate to health examination(tcs),,yes,0.1464,0.05,0.05,p_res_tcs,0
+p_res_tcs_after_polypec,response rate to tcs after polypectomy,,yes,0.1464,0.05,0.05,p_res_tcs_after_polypec,0
+p_res_tcs_afterFit,,,yes,0.699,0.05,0.05,p_res_tcs_afterFit,0
+p_rr_s_dukeABCD,FITとTCSの大腸癌に対する相対リスク比,,yes,0.73,0.37,1,p_rr_s_dukeABCD,0
+p_rr_s_high_polyp,FitのTCSに対する相対リスク比,,yes,0.42,0.3,0.58,p_rr_s_high_polyp,0
+p_rr_s_low_polyp,FITのTCSに対するlowriskpolypの相対リスク比,,yes,0.35,0.23,0.54,p_rr_s_low_polyp,0
+p_s_fit_dukeA,sensitivity for Duke's A CRC,,yes,0.916,0.05,0.05,p_s_fit_dukeA,0
+p_s_fit_dukeB,sensitivity for Duke'sB CRC,,yes,0.916,0.05,0.05,p_s_fit_dukeB,0
+p_s_fit_dukeCD,sensitivity for Duke's C and D CRC,,yes,0.916,0.05,0.05,p_s_fit_dukeCD,0
+p_s_fit_highrisk,sensitivity for high-risk polyp,,yes,0.438,0.05,0.05,p_s_fit_highrisk,0
+p_s_fit_lowrisk1,sensitivity for 1-4mm low-risk polyp,,yes,0.122,0.05,0.05,p_s_fit_lowrisk1,0
+p_s_fit_lowrisk2,sensitivity for 5~9mm low-risk polyp,,yes,0.152,0.05,0.05,p_s_fit_lowrisk2,0
+p_s_tcs_DukeABCD,Sensitivity for CRC(DukesA-D),,yes,0.999,0.05,0,p_s_tcs_DukeABCD,0
+p_s_tcs_highpolyp,Sensitivity for 5-9mm low-risk polyp,,yes,0.865,0.05,0.05,p_s_tcs_highpolyp,0
+p_s_tcs_low2,Sensitivity for 5-9mm low-risk polyp,,yes,0.865,0.05,0.05,p_s_tcs_low2,0
+p_speci_fit,specificity for colorectal polyp and CRC in fit,,yes,0.946,0.05,0.05,p_speci_fit,0
+p_speci_tcs,specificity for colorectal polyp and CRC,,yes,1,0.05,0,p_speci_tcs,0
+p_tcs_lowr1,Sensitivity for 1-4mm low-risk polyp,,yes,0.741,0.05,0.05,p_tcs_lowr1,0
+time_horizon,time_horizon,,yes,45,0,45,time_horizon,0
+u_dukeA,Duke'A QOL,,yes,0.879,0.05,0.05,u_dukeA,0
+u_dukeB,dukeB QOL,,yes,0.879,0.05,0.05,u_dukeB,0
+u_dukec,dukeC QOL,,yes,0.867,0.05,0.05,u_dukec,0
+u_dukeD,dukeD QOL,,yes,0.844,0.05,0.05,u_dukeD,0
+u_hl,high risk QOL,,yes,1,0.05,0,u_hl,0
+u_lr1,Low risk1 qol,,yes,1,0.05,0,u_lr1,0
+u_lr2,low risk2 qol,,yes,1,0.05,0,u_lr2,0
+u_no_sy,QALY no symptoms,,yes,1,0.05,0,u_no_sy,0
+u_normal,Normal state,,yes,1,0.05,0,u_normal,0
+Variable8,,,yes,,0,0,Variable8,0

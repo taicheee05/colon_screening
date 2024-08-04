@@ -1,0 +1,7 @@
+﻿c_fit,c_ma_f1_dukesA,c_ma_f1_dukesB,c_ma_f1_dukesC,c_ma_f1_dukesD,c_ma_f2_dukesA,c_ma_f2_dukesB,c_ma_f2_dukesC,c_ma_f2_dukesD,c_rem_hr_ply,c_rem_lr_poly,c_tcs
+FIT COST(\/Y),annual cost management Duke's A patient(1year)(\/Y),annual cost management Duke's B patient(1year)(\/Y),annual cost management Duke's A patient(1year)(\/Y),annual cost management Duke's D patient(1year)(\/Y),annual cost management Duke's A patient(after 2year)(\/Y),annual cost management Duke's B patient(after 2year)(\/Y),annual cost management Duke's C patient(after 2year)(\/Y),annual cost management Duke's D patient(after 2year)(\/Y),cost endoscopic resection of high-risk polyp(\/Y),cost endoscopic resection of low-risk polyp,tcs cost(\/Y)
+1557,1786482,2056922,2637803,3179764,34610,34610,43758,2476258,452445,48650,30943
+0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2
+0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2
+c_fit,c_ma_f1_dukesA,c_ma_f1_dukesB,c_ma_f1_dukesC,c_ma_f1_dukesD,c_ma_f2_dukesA,c_ma_f2_dukesB,c_ma_f2_dukesC,c_ma_f2_dukesD,c_rem_hr_ply,c_rem_lr_poly,c_tcs
+0,0,0,0,0,0,0,0,0,0,0,0
