@@ -1,4 +1,4 @@
-streamlit
-numpy
+streamlit==1.37.1
+numba==0.60.0
 pandas
-numba
+numpy
