@@ -1,9 +1,10 @@
-﻿u_dukeA,u_dukeB,u_dukec,u_dukeD,u_hl,u_lr1,u_lr2,u_no_sy,u_normal
-Duke'A QOL,dukeB QOL,dukeC QOL,dukeD QOL,high risk QOL,Low risk1 qol,low risk2 qol,QALY no symptoms,Normal state
-,,,,,,,,
-yes,yes,yes,yes,yes,yes,yes,yes,yes
-0.879,0.879,0.867,0.844,1,1,1,1,1
-0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05
-0.05,0.05,0.05,0.05,0,0,0,0,0
-u_dukeA,u_dukeB,u_dukec,u_dukeD,u_hl,u_lr1,u_lr2,u_no_sy,u_normal
-0,0,0,0,0,0,0,0,0
+﻿name,explanation,value,low,high
+u_dukeA,Duke'A QOL,0.879,0.05,0.05
+u_dukeB,dukeB QOL,0.879,0.05,0.05
+u_dukec,dukeC QOL,0.867,0.05,0.05
+u_dukeD,dukeD QOL,0.844,0.05,0.05
+u_hl,high risk QOL,1,0.05,0
+u_lr1,Low risk1 qol,1,0.05,0
+u_lr2,low risk2 qol,1,0.05,0
+u_no_sy,QALY no symptoms,1,0.05,0
+u_normal,Normal state,1,0.05,0

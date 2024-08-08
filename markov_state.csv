@@ -1,19 +1,19 @@
-﻿markov state
-Normal
-Low risk;1~4mm
-Low risk;5~9mm
-High risk
-Duke'A
-DukeA under treatment
-Duke'sB
-Duke'B under treatment
-Duke'sC
-Duke'C under treatment
-Duke'sD
-Duke'D under treatment
-Death
-Post resection normal
-Post Duke A treatment normal
-Post Dukes B treatment normal
-Post Dukes C treatment normal
-Post Dukes D treatment normal
+﻿markov state,
+Normal,H
+Low risk;1~4mm,LR1
+Low risk;5~9mm,LR2
+High risk,HR
+Duke'A,DA
+DukeA under treatment,DAU
+Duke'sB,DB
+Duke'B under treatment,DBU
+Duke'sC,DC
+Duke'C under treatment,DCU
+Duke'sD,DD
+Duke'D under treatment,DDU
+Death,D
+Post resection normal,PRH
+Post Duke A treatment normal,PDAH
+Post Dukes B treatment normal,PDBH
+Post Dukes C treatment normal,PDCH
+Post Dukes D treatment normal,PDDH
