@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from numba import njit
+from numba import njit, prange
 from numba.typed import Dict
 from numba.types import int64, float64
 
